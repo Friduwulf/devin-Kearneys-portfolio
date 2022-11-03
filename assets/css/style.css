@@ -8,7 +8,7 @@
 }
 
 header, li, a, button {
-    font-family: "Montserrat"; san-serif;
+    font-family: "Montserrat", san-serif;
     font-weight: 500;
     font-size: 25px;
     color: #edf0f1;
@@ -52,47 +52,71 @@ button:hover {
     background-color:  rgba(0, 136, 169, 0.8);
 }
 
-/* header{
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #03486b;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.header nav ul li a {
-    color:aqua
-    
-} */
-
 .hero {
     height: 200px;
     width: 100%;
-    margin-top: 0px;
-    margin-bottom: 25px;
     background-image: url("../gradient-dark-blue-futuristic-digital-grid-background.jpg");
     background-size: cover;
     background-position: center;
+    border:#0088A9 5px solid;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstWork img{
+    display: block;
+    z-index: 0;
+    width: 40%;
+    height: auto;
+}
+
+.sectionTitle {
+    display: block;
+    font-family: "Montserrat", san-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #edf0f1;
+    text-align: center;
+    padding-right: 10px;
+    background-color: #0088A9;
+    border-radius: 50px 0px 0px 50px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 800px;
+    width: 300px;
+    border-right: 10px double #0088A9;
+    border-top: 10px double #0088A9;
+}
+
+.infoPannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Montserrat", san-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
