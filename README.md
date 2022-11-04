@@ -6,9 +6,9 @@ This project was intended to make a fast and accesible way to view many of my co
 
 ## Installation
 
-To access this application, go to : https://friduwulf.github.io/semantic-DRY-horiseon/
+To access this application, go to : [https://friduwulf.github.io/semantic-DRY-horiseon/](https://friduwulf.github.io/devin-Kearneys-portfolio/)
 
-![image](https://user-images.githubusercontent.com/34720583/198457119-b3f259b4-2a9d-49d7-9937-d0b5df92c4d1.png)
+![image](https://user-images.githubusercontent.com/34720583/199868225-02cd2652-1879-4579-b8d1-de955b9a07f7.png)
 
 ## Usage
 
