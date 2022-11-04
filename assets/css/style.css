@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    width: 100%;
 }
 /* Controls the links in the header */
 .navLinks {
@@ -70,6 +71,7 @@ main {
 .infoPannel {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-start;
     font-family: "Montserrat", san-serif;
     font-weight: 500;
@@ -82,7 +84,8 @@ main {
 /* Controls the div containing the about me section of information */
 #aboutMe {
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
+    flex: 0 1 auto;
     height: 350px;
     justify-content: space-between;
     align-items: flex-start;
@@ -92,26 +95,29 @@ main {
     display: flex;
     width: 70%;
     justify-content: center;
-    height: 350px;
+    height: 100%;
     align-items: center;
     border: 10px double #0088A9;
-    font-size: 20px; 
+    font-size: 18px; 
+    padding: 2% 10%;
 }
 /* Places a border box around profile picture */
 .profileBox {
     display: flex;
+    flex: 0 1 auto;
     border: 10px double #0088A9;
-    width: 500px;
-    height: 350px;
+    width: 40%;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
 /* Controls the about me profile picture */
 #aboutMe img {
-    display: block;
+    display: flex;
     border-radius: 50%;
-    width: 325px;
-    height: 325px;
+    width: auto;
+    height: 100%;
+
 }
 /* Controls the woks section */
 #work {
@@ -204,4 +210,11 @@ aside {
 /* Gives links an on hover effect in footer */
 #contactMe li a:hover {
     color: #0088A9;
+}
+
+@media screen and (max-width: 900px) {
+    #aboutMe {flex-direction: column;
+        width:142%;
+    }
+    #aboutMe img
 }
